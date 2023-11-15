@@ -1,15 +1,13 @@
 public class Gaji extends Pegawai {
     private double salary; //Gaji Tahunan
+    String info = "Ini dari class Gaji"; //properti info
 
     public Gaji(String name, String address, int number, double salary) {
         super (name, address, number);
         setSalary (salary);
-        super.mailCheck();
-        System.out.println();
     }
     
     public void mailCheck () {
-        System.out.println(super.toString());
         System.out.println("Memeriksa kelas gaji dalam surat ");
         System.out.println("Surat tertuju untuk " + getName() + " dengan gaji " + salary);
     }

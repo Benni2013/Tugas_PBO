@@ -2,9 +2,10 @@ public class Pegawai {
     private String name;
     private String address;
     private int number;
+    String info = "Ini dari class Pegawai";  //properti info
 
     public Pegawai (String name, String address, int number) {
-        System.out.println("Menyusun Pegawai");
+        //System.out.println("Menyusun Pegawai");
         this.name = name;
         this.address = address;
         this.number = number;
