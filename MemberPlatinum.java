@@ -1,6 +1,6 @@
 package id.ac.unand.fti.si.pbo;
 
-public class MemberPlatinum extends Member implements CanRequestDelivery, CanRequestCicilan, CanDeposit{
+public class MemberPlatinum extends Member implements CanGetDiskon, CanRequestDelivery, CanRequestCicilan, CanDeposit{
     
     public Integer saldo = 0;
 
