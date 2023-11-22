@@ -1,6 +1,6 @@
 package id.ac.unand.fti.si.pbo;
 
-public class MemberSilver extends Member implements CanRequestDelivery{
+public class MemberSilver extends Member implements CanGetDiskon, CanRequestDelivery{
     
     @Override
     public Integer hitungTotalBayar(Integer jumlahBelanja){
